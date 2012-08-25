@@ -48,8 +48,8 @@ Authors
 
 - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
 
-Contributors
-------------
+.. Contributors
+.. ------------
 
 
 
