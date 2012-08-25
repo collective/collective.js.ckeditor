@@ -19,7 +19,7 @@
                 <dt><a class="samples" href="example.ckeditor.replacebyclass.html">Replace textarea elements by class name</a></dt>
                 <dd>Automatic replacement of all textarea elements of a given class with a CKEditor instance.</dd>
 
-                <dt><a class="samples" href="replacebycode.html">Replace textarea elements by code</a></dt>
+                <dt><a class="samples" href="example.ckeditor.replacebycode.html">Replace textarea elements by code</a></dt>
                 <dd>Replacement of textarea elements with CKEditor instances by using a JavaScript call.</dd>
 
                 <dt><a class="samples" href="divarea.html">Replace textarea with a "DIV-based" editor</a> <span class="new">New!</span></dt>

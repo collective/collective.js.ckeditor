@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<!--
-Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.html or http://ckeditor.com/license
--->
-<html>
-<head>
-	<title>Replace Textarea by Code &mdash; CKEditor Sample</title>
-	<meta charset="utf-8">
-	<script src="../ckeditor.js"></script>
-	<link href="sample.css" rel="stylesheet">
-</head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:tal="http://xml.zope.org/namespaces/tal" xmlns:metal="http://xml.zope.org/namespaces/metal" xmlns:i18n="http://xml.zope.org/namespaces/i18n" lang="en" metal:use-macro="context/main_template/macros/master" i18n:domain="plone">
 <body>
+ <div metal:fill-slot="main">
+  <tal:main-macro metal:define-macro="main">
+
+    <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+    <link rel="stylesheet" tal:attributes="href string:${view/sample_url}/sample.css">
+
 	<h1 class="samples">
-		<a href="index.html">CKEditor Samples</a> &raquo; Replace Textarea Elements Using JavaScript Code
+		<a href="example.ckeditor">CKEditor Samples</a> &raquo; Replace Textarea Elements Using JavaScript Code
 	</h1>
-	<form action="sample_posteddata.php" method="post">
+	<form action="example.ckeditor.sample_posteddata" method="post">
 		<div class="description">
 			<p>
 				This editor is using an <code>&lt;iframe&gt;</code> element-based editing area, provided by the <strong>Wysiwygarea</strong> plugin.
@@ -89,5 +85,7 @@ CKEDITOR.replace( '<em>textarea_id</em>' )
 			Knabben. All rights reserved.
 		</p>
 	</div>
+  </tal:main-macro>
+ </div>
 </body>
 </html>

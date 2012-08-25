@@ -8,7 +8,7 @@
     <link rel="stylesheet" tal:attributes="href string:${view/sample_url}/sample.css">
 
 	<h1 class="samples">
-		<a href="index.html">CKEditor Samples</a> &raquo; Replace Textarea Elements by Class Name
+		<a href="example.ckeditor">CKEditor Samples</a> &raquo; Replace Textarea Elements by Class Name
 	</h1>
 	<div class="description">
 		<p>
@@ -26,7 +26,7 @@
 			Note that other <code>&lt;textarea&gt;</code> attributes (like <code>id</code> or <code>name</code>) need to be adjusted to your document.
 		</p>
 	</div>
-	<form action="sample_posteddata.php" method="post">
+	<form action="example.ckeditor.sample_posteddata" method="post">
 		<p>
 			<label for="editor1">
 				Editor 1:
