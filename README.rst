@@ -1,10 +1,12 @@
 Introduction
 ============
 
-This addon register ckeditor to Plone resource registry.
+This addon register ckeditor_ to Plone resource registry.
 It do not provide any further integration with Plone.
 
 version: 4.0 Beta
+
+This ckeditor version is available on github_
 
 This addon provide a buildout which loads samples: /@@example.ckeditor.
 At the moment not all samples are migrated to work within Plone but we
