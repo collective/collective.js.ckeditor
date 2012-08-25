@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.js.ckeditor">
+
+  <browser:page
+    name="example.ckeditor"
+    for="*"
+    class=".sample_view.SampleView"
+    template="index.pt"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    name="example.ckeditor.replacebyclass.html"
+    for="*"
+    class=".sample_view.SampleView"
+    template="replacebyclass.pt"
+    permission="zope2.View"
+    />
+
+</configure>
