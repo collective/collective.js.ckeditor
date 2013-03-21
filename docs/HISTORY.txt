@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1 (2013-03-21)
-----------------
+4.0.2 (2013-03-21)
+------------------
 
 - Update ckeditor to 4.0.2 using bundle="ckeditor" [toutpt]
 
