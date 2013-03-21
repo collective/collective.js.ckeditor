@@ -15,6 +15,6 @@
       for the latest list of all available keys and default values.
       -->
 
- <javascript id="++resource++collective.js.ckeditor/ckeditor.js"/>
+ <javascript id="++resource++collective.js.ckeditor/ckeditor.js" bundle="ckeditor"/>
 
 </object>
