@@ -4,14 +4,7 @@ Introduction
 This addon register ckeditor_ to Plone resource registry.
 It do not provide any further integration with Plone.
 
-version: 4.0 Beta
-
-This ckeditor version is available on github_
-
-This addon provide a buildout which loads samples: /@@example.ckeditor.
-At the moment not all samples are migrated to work within Plone but we
-are working on it. Note that samples are not loaded in a normal installation
-of this addon.
+version: 4.0.2
 
 Software License Agreement
 ==========================
@@ -43,14 +36,10 @@ Companies
 * `Planet Makina Corpus <http://www.makina-corpus.org>`_
 * `Contact Makina-Corpus <mailto:python@makina-corpus.org>`_
 
-Authors
--------
+People
+------
 
 - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
-
-.. Contributors
-.. ------------
-
 
 
 .. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif

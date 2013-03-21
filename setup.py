@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1.dev0'
+version = '4.0.2'
 
 setup(name='collective.js.ckeditor',
       version=version,
@@ -11,8 +11,19 @@ setup(name='collective.js.ckeditor',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
+        "Environment :: Web Environment",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
+        "Framework :: Zope2",
+        "Framework :: Plone",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
         "Programming Language :: Python",
-        ],
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
+      ],
       keywords='plone ckeditor',
       author='JeanMichel FRANCOIS',
       author_email='toutpt@gmail.com',
@@ -26,7 +37,7 @@ setup(name='collective.js.ckeditor',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
-      extras_require = dict(
+      extras_require=dict(
           test=['plone.app.testing'],
       ),
       entry_points="""
