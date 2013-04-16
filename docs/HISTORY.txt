@@ -4,7 +4,7 @@ Changelog
 4.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- fix configuration issue in production by adding CKEDITOR_BASEPATH var
 
 
 4.0.2 (2013-03-21)
