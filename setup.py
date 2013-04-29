@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.0.3'
+version = '4.0.4.dev0'
 
 setup(name='collective.js.ckeditor',
       version=version,
